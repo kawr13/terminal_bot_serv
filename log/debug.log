@@ -5,6 +5,7 @@ WARNING 2024-01-17 02:30:23,172 basehttp 19520 9556 "GET /favicon.ico HTTP/1.1" 
 INFO 2024-01-17 02:30:25,973 basehttp 19520 9556 "GET / HTTP/1.1" 200 0
 INFO 2024-01-17 02:30:49,580 autoreload 16900 3776 Watching for file changes with StatReloader
 INFO 2024-01-17 02:30:51,715 basehttp 16900 14244 "GET / HTTP/1.1" 200 34
+<<<<<<< HEAD
 INFO 2024-01-17 03:15:11,339 autoreload 3132 10900 Watching for file changes with StatReloader
 WARNING 2024-01-17 03:15:28,526 log 3132 13684 Not Found: /
 WARNING 2024-01-17 03:15:28,527 basehttp 3132 13684 "GET / HTTP/1.1" 404 2493
@@ -365,3 +366,58 @@ INFO 2024-01-17 17:40:34,407 basehttp 16468 2844 "GET /status_cont/NEPU4571987 H
 INFO 2024-01-17 17:40:34,575 basehttp 16468 14904 "GET /status_cont/NEPU4571987/ HTTP/1.1" 200 5511
 INFO 2024-01-17 17:41:32,176 autoreload 15812 17028 Watching for file changes with StatReloader
 INFO 2024-01-17 17:41:34,809 basehttp 15812 14880 "GET /status_cont/NEPU4571987/ HTTP/1.1" 200 5537
+=======
+INFO 2024-01-16 21:52:47,483 autoreload 25862 139786469687296 Watching for file changes with StatReloader
+INFO 2024-01-16 21:53:12,847 autoreload 25898 140201469882368 Watching for file changes with StatReloader
+INFO 2024-01-16 22:32:42,720 autoreload 25998 139979417845760 Watching for file changes with StatReloader
+INFO 2024-01-16 22:32:58,205 autoreload 26015 140111726616576 Watching for file changes with StatReloader
+INFO 2024-01-16 22:37:02,091 autoreload 26068 139641875562496 Watching for file changes with StatReloader
+INFO 2024-01-16 22:38:47,040 autoreload 26115 140445541355520 Watching for file changes with StatReloader
+INFO 2024-01-16 22:45:15,333 autoreload 26169 139708794736640 Watching for file changes with StatReloader
+INFO 2024-01-17 09:08:18,373 autoreload 27783 140039784800256 Watching for file changes with StatReloader
+WARNING 2024-01-17 09:08:22,914 log 27783 140039623276096 Not Found: /tcl
+WARNING 2024-01-17 09:08:22,915 basehttp 27783 140039623276096 "GET /tcl HTTP/1.1" 404 2514
+WARNING 2024-01-17 09:08:23,089 log 27783 140039623276096 Not Found: /favicon.ico
+WARNING 2024-01-17 09:08:23,089 basehttp 27783 140039623276096 "GET /favicon.ico HTTP/1.1" 404 2538
+WARNING 2024-01-17 09:08:23,199 log 27783 140039707162176 Not Found: /tcl
+WARNING 2024-01-17 09:08:23,199 basehttp 27783 140039707162176 "GET /tcl HTTP/1.1" 404 2514
+INFO 2024-01-17 09:08:27,843 basehttp 27783 140039707162176 "GET / HTTP/1.1" 200 34
+ERROR 2024-01-17 10:28:16,794 exception 30118 140702712602624 Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-01-17 10:28:16,841 log 30118 140702712602624 Bad Request: /
+ERROR 2024-01-17 10:34:54,047 exception 30118 140702712602624 Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-01-17 10:34:54,079 log 30118 140702712602624 Bad Request: /
+ERROR 2024-01-17 10:45:38,366 exception 30832 140701744082944 Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-01-17 10:45:38,414 log 30832 140701744082944 Bad Request: /
+INFO 2024-01-17 10:54:36,446 autoreload 31162 139746575396864 Watching for file changes with StatReloader
+>>>>>>> cc3281f (not commit)
+INFO 2024-01-17 13:13:59,588 autoreload 33852 140036590149632 Watching for file changes with StatReloader

@@ -1,4 +1,8 @@
 /venv/
 .idea/
 ../.idea/
+<<<<<<< HEAD
 .env
+=======
+.env
+>>>>>>> cc3281f (not commit)

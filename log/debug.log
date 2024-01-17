@@ -5,3 +5,363 @@ WARNING 2024-01-17 02:30:23,172 basehttp 19520 9556 "GET /favicon.ico HTTP/1.1" 
 INFO 2024-01-17 02:30:25,973 basehttp 19520 9556 "GET / HTTP/1.1" 200 0
 INFO 2024-01-17 02:30:49,580 autoreload 16900 3776 Watching for file changes with StatReloader
 INFO 2024-01-17 02:30:51,715 basehttp 16900 14244 "GET / HTTP/1.1" 200 34
+INFO 2024-01-17 03:15:11,339 autoreload 3132 10900 Watching for file changes with StatReloader
+WARNING 2024-01-17 03:15:28,526 log 3132 13684 Not Found: /
+WARNING 2024-01-17 03:15:28,527 basehttp 3132 13684 "GET / HTTP/1.1" 404 2493
+INFO 2024-01-17 03:15:34,650 basehttp 3132 13684 "GET /tele_api HTTP/1.1" 301 0
+ERROR 2024-01-17 03:15:34,698 log 3132 6904 Internal Server Error: /tele_api/
+Traceback (most recent call last):
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 187, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\request.py", line 227, in user
+    self._authenticate()
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\auth\middleware.py", line 33, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\auth\middleware.py", line 13, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 53, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 192, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 42, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\query.py", line 643, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+ERROR 2024-01-17 03:15:34,703 basehttp 3132 6904 "GET /tele_api/ HTTP/1.1" 500 234321
+INFO 2024-01-17 03:16:38,798 autoreload 18092 9476 Watching for file changes with StatReloader
+ERROR 2024-01-17 03:16:44,011 log 18092 20360 Internal Server Error: /tele_api/
+Traceback (most recent call last):
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 187, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\request.py", line 227, in user
+    self._authenticate()
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\auth\middleware.py", line 33, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\auth\middleware.py", line 13, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 53, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 192, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 42, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\query.py", line 643, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+ERROR 2024-01-17 03:16:44,018 basehttp 18092 20360 "GET /tele_api/ HTTP/1.1" 500 234458
+INFO 2024-01-17 03:17:22,567 autoreload 13720 19196 Watching for file changes with StatReloader
+INFO 2024-01-17 03:17:27,075 basehttp 13720 3096 "GET /tele_api/ HTTP/1.1" 200 5176
+INFO 2024-01-17 03:17:27,189 basehttp 13720 3096 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-01-17 03:17:27,192 basehttp 13720 3096 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2024-01-17 03:17:27,193 basehttp 13720 17596 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2024-01-17 03:17:27,200 basehttp 13720 18564 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-01-17 03:17:27,203 basehttp 13720 17596 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-01-17 03:17:27,203 basehttp 13720 3096 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-01-17 03:17:27,203 basehttp 13720 20328 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-01-17 03:17:27,204 basehttp 13720 11716 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2024-01-17 03:17:27,206 basehttp 13720 18564 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-01-17 03:17:27,207 basehttp 13720 20140 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2024-01-17 03:17:27,231 basehttp 13720 20140 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-01-17 03:17:33,066 basehttp 13720 20140 "GET /tele_api/ HTTP/1.1" 200 5176
+INFO 2024-01-17 03:17:52,056 autoreload 13720 19196 F:\my_linux_project\terminal_bot_serv\web_admin_telebot\telegramrestapp\views.py changed, reloading.
+INFO 2024-01-17 03:17:52,501 autoreload 16768 2692 Watching for file changes with StatReloader
+INFO 2024-01-17 03:18:14,512 autoreload 16768 2692 F:\my_linux_project\terminal_bot_serv\web_admin_telebot\telegramrestapp\views.py changed, reloading.
+INFO 2024-01-17 03:18:14,921 autoreload 3272 14372 Watching for file changes with StatReloader
+INFO 2024-01-17 03:18:28,146 autoreload 11028 13236 Watching for file changes with StatReloader
+INFO 2024-01-17 03:18:33,580 basehttp 11028 18404 "GET /tele_api/ HTTP/1.1" 200 6817
+INFO 2024-01-17 03:18:40,550 basehttp 11028 18404 "GET /tele_api/?format=json HTTP/1.1" 200 27
+WARNING 2024-01-17 03:18:54,509 log 11028 18404 Bad Request: /tele_api/
+WARNING 2024-01-17 03:18:54,509 basehttp 11028 18404 "POST /tele_api/ HTTP/1.1" 400 6873
+INFO 2024-01-17 03:19:02,052 basehttp 11028 18404 "POST /tele_api/ HTTP/1.1" 200 6823
+INFO 2024-01-17 03:19:04,384 basehttp 11028 18404 "POST /tele_api/ HTTP/1.1" 200 6823
+ERROR 2024-01-17 03:19:07,545 log 11028 18404 Internal Server Error: /tele_api/
+Traceback (most recent call last):
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\my_linux_project\terminal_bot_serv\web_admin_telebot\telegramrestapp\views.py", line 12, in post
+    cont_num = request.data.get('cont_num')
+               ^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'get'
+ERROR 2024-01-17 03:19:07,547 basehttp 11028 18404 "POST /tele_api/ HTTP/1.1" 500 101936
+WARNING 2024-01-17 03:19:13,634 log 11028 18404 Not Found: /
+WARNING 2024-01-17 03:19:13,634 basehttp 11028 18404 "GET / HTTP/1.1" 404 2493
+INFO 2024-01-17 03:19:15,177 basehttp 11028 18404 "GET /tele_api/ HTTP/1.1" 200 6817
+INFO 2024-01-17 03:20:00,684 autoreload 19532 17140 Watching for file changes with StatReloader
+INFO 2024-01-17 03:20:03,056 basehttp 19532 15060 "GET /tele_api/ HTTP/1.1" 200 5167
+INFO 2024-01-17 03:20:05,274 basehttp 19532 15060 "OPTIONS /tele_api/ HTTP/1.1" 200 5480
+INFO 2024-01-17 03:20:06,383 basehttp 19532 15060 "OPTIONS /tele_api/ HTTP/1.1" 200 5480
+INFO 2024-01-17 03:20:07,098 basehttp 19532 15060 "GET /tele_api/ HTTP/1.1" 200 5167
+INFO 2024-01-17 03:20:07,774 basehttp 19532 15060 "GET /tele_api/ HTTP/1.1" 200 5167
+INFO 2024-01-17 03:20:07,984 basehttp 19532 15060 "GET /tele_api/ HTTP/1.1" 200 5167
+INFO 2024-01-17 03:20:08,187 basehttp 19532 15060 "GET /tele_api/ HTTP/1.1" 200 5167
+INFO 2024-01-17 03:20:09,504 basehttp 19532 15060 "OPTIONS /tele_api/ HTTP/1.1" 200 5480
+INFO 2024-01-17 03:21:24,835 autoreload 8120 14252 Watching for file changes with StatReloader
+INFO 2024-01-17 03:21:27,091 basehttp 8120 4848 "GET /tele_api/ HTTP/1.1" 200 5234
+INFO 2024-01-17 03:22:09,090 basehttp 8120 4848 "GET /tele_api/?cont_num=4111 HTTP/1.1" 200 5312
+INFO 2024-01-17 03:22:45,732 basehttp 8120 4848 "GET /tele_api/?ContNum=HNKU6137310 HTTP/1.1" 200 5349
+INFO 2024-01-17 03:24:50,504 autoreload 12188 16376 Watching for file changes with StatReloader
+INFO 2024-01-17 03:24:55,631 basehttp 12188 4748 "GET /tele_api/?ContNum=HNKU6137310 HTTP/1.1" 200 92
+INFO 2024-01-17 03:25:08,848 basehttp 12188 11436 "GET /tele_api/?ContNum=HNKU61389890 HTTP/1.1" 200 93
+INFO 2024-01-17 03:25:10,772 basehttp 12188 4488 "GET /tele_api/?ContNum=HNKU61389890 HTTP/1.1" 200 93
+INFO 2024-01-17 17:31:18,177 autoreload 15816 9376 Watching for file changes with StatReloader
+WARNING 2024-01-17 17:31:19,887 log 15816 10084 Method Not Allowed: /
+WARNING 2024-01-17 17:31:19,887 basehttp 15816 10084 "GET / HTTP/1.1" 405 5547
+INFO 2024-01-17 17:31:19,914 basehttp 15816 10084 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,920 basehttp 15816 9276 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,921 basehttp 15816 13836 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,921 basehttp 15816 10084 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,925 basehttp 15816 16756 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,926 basehttp 15816 9024 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,926 basehttp 15816 9276 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,926 basehttp 15816 13836 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,927 basehttp 15816 5972 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,927 basehttp 15816 10084 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-01-17 17:31:19,997 basehttp 15816 5972 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2024-01-17 17:31:20,055 log 15816 5972 Not Found: /favicon.ico
+WARNING 2024-01-17 17:31:20,056 basehttp 15816 5972 "GET /favicon.ico HTTP/1.1" 404 2535
+WARNING 2024-01-17 17:31:23,069 log 15816 5972 Method Not Allowed: /
+WARNING 2024-01-17 17:31:23,069 basehttp 15816 5972 "GET / HTTP/1.1" 405 5547
+WARNING 2024-01-17 17:31:31,340 log 15816 5972 Bad Request: /
+WARNING 2024-01-17 17:31:31,341 basehttp 15816 5972 "POST / HTTP/1.1" 400 5550
+WARNING 2024-01-17 17:31:35,398 log 15816 5972 Bad Request: /
+WARNING 2024-01-17 17:31:35,398 basehttp 15816 5972 "POST / HTTP/1.1" 400 5550
+INFO 2024-01-17 17:32:03,957 autoreload 4208 12820 Watching for file changes with StatReloader
+WARNING 2024-01-17 17:32:06,629 log 4208 3120 Bad Request: /
+WARNING 2024-01-17 17:32:06,630 basehttp 4208 3120 "POST / HTTP/1.1" 400 5550
+INFO 2024-01-17 17:38:14,982 autoreload 16624 9480 Watching for file changes with StatReloader
+WARNING 2024-01-17 17:38:17,495 log 16624 16848 Not Found: /
+WARNING 2024-01-17 17:38:17,496 basehttp 16624 16848 "GET / HTTP/1.1" 404 2517
+WARNING 2024-01-17 17:38:27,854 log 16624 16848 Not Found: /status_cont
+WARNING 2024-01-17 17:38:27,854 basehttp 16624 16848 "GET /status_cont HTTP/1.1" 404 2568
+WARNING 2024-01-17 17:38:34,200 log 16624 16848 Not Found: /status_cont/
+WARNING 2024-01-17 17:38:34,201 basehttp 16624 16848 "GET /status_cont/ HTTP/1.1" 404 2571
+INFO 2024-01-17 17:38:39,785 basehttp 16624 16848 "GET /status_cont/%20None HTTP/1.1" 301 0
+INFO 2024-01-17 17:38:39,801 basehttp 16624 1640 "GET /status_cont/%20None/ HTTP/1.1" 200 5299
+INFO 2024-01-17 17:39:03,680 basehttp 16624 1640 "GET /status_cont/NEPU4571987/ HTTP/1.1" 200 5331
+INFO 2024-01-17 17:40:17,689 autoreload 16468 3560 Watching for file changes with StatReloader
+INFO 2024-01-17 17:40:20,126 basehttp 16468 2844 "GET /status_cont/NEPU4571987/ HTTP/1.1" 200 5511
+INFO 2024-01-17 17:40:21,757 basehttp 16468 2844 "GET /status_cont/NEPU4571987/ HTTP/1.1" 200 5511
+INFO 2024-01-17 17:40:27,906 basehttp 16468 2844 "GET /status_cont/NEPU4571987/?format=api HTTP/1.1" 200 5555
+INFO 2024-01-17 17:40:34,407 basehttp 16468 2844 "GET /status_cont/NEPU4571987 HTTP/1.1" 301 0
+INFO 2024-01-17 17:40:34,575 basehttp 16468 14904 "GET /status_cont/NEPU4571987/ HTTP/1.1" 200 5511
+INFO 2024-01-17 17:41:32,176 autoreload 15812 17028 Watching for file changes with StatReloader
+INFO 2024-01-17 17:41:34,809 basehttp 15812 14880 "GET /status_cont/NEPU4571987/ HTTP/1.1" 200 5537

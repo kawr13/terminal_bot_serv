@@ -24,5 +24,5 @@ app_name = 'telegramrestapp'
 
 
 urlpatterns = [
-    path('', IndexView.as_view(), name='index'),
+    path('status_cont/<str:cont_num>/', IndexView.as_view(), name='index'),
 ]

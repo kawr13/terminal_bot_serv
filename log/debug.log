@@ -421,3 +421,497 @@ WARNING 2024-01-17 10:45:38,414 log 30832 140701744082944 Bad Request: /
 INFO 2024-01-17 10:54:36,446 autoreload 31162 139746575396864 Watching for file changes with StatReloader
 >>>>>>> cc3281f (not commit)
 INFO 2024-01-17 13:13:59,588 autoreload 33852 140036590149632 Watching for file changes with StatReloader
+ERROR 2024-01-17 14:38:47,771 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:38:47,774 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:39:29,308 exception 34347 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:39:29,310 log 34347 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:39:30,476 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:39:30,477 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:39:31,069 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:39:31,070 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:39:31,226 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:39:31,227 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:39:31,394 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:39:31,395 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:39:31,572 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:39:31,572 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:39:44,323 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:39:44,324 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:39:48,608 exception 34347 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:39:48,609 log 34347 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:50:29,891 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:50:29,893 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:50:30,696 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:50:30,696 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:50:30,856 exception 34347 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:50:30,858 log 34347 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 14:50:31,034 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 14:50:31,034 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+WARNING 2024-01-17 14:54:25,134 log 34345 140166731849728 Not Found: /
+WARNING 2024-01-17 14:54:25,662 log 34345 140166731849728 Not Found: /
+WARNING 2024-01-17 14:54:34,373 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/
+WARNING 2024-01-17 16:23:15,844 log 34346 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:23:17,859 log 34346 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:27:10,795 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:27:12,606 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:27:15,237 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:52:48,947 log 34347 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:52:50,587 log 34347 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:52:57,072 log 34347 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:54:18,815 log 34347 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:54:32,659 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:54:37,286 log 34347 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:54:40,357 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:54:58,218 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:55:01,580 log 34347 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:55:05,254 log 34347 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:57:56,170 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:57:58,891 log 34346 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:59:14,344 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+WARNING 2024-01-17 16:59:16,682 log 34345 140166731849728 Not Found: /status_cont/NEPU4570390/83.68.49.221
+ERROR 2024-01-17 18:06:19,111 exception 34346 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:06:19,113 log 34346 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:06:21,717 exception 34346 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:06:21,717 log 34346 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:06:23,283 exception 34346 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:06:23,284 log 34346 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:06:27,496 exception 34346 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:06:27,497 log 34346 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:06:29,147 exception 34346 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:06:29,147 log 34346 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:06:30,717 exception 34346 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:25080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:06:30,718 log 34346 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:08:12,224 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:08:12,225 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:10:46,054 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:10:46,055 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:10:47,214 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:10:47,215 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:12:36,048 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:12:36,049 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:12:37,430 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:12:37,431 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:12:42,042 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:33080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:12:42,043 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:13:20,525 exception 34347 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:13:20,526 log 34347 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:13:23,018 exception 34347 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:13:23,018 log 34347 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:13:27,258 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:13:27,259 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:20:38,045 exception 34347 140166731849728 Invalid HTTP_HOST header: 'telebot.sigir.com:8080'. You may need to add 'telebot.sigir.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'telebot.sigir.com:8080'. You may need to add 'telebot.sigir.com' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:20:38,047 log 34347 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:22:51,200 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:22:51,201 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:22:52,668 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:22:52,669 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:23:05,615 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:23:05,615 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:23:13,023 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:23:13,024 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390
+ERROR 2024-01-17 18:23:19,751 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:23:19,752 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:25:03,019 exception 34346 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:25:03,020 log 34346 140166731849728 Bad Request: /status_cont/NEPU4570390/
+ERROR 2024-01-17 18:25:08,095 exception 34345 140166731849728 Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '83.68.49.221:8080'. You may need to add '83.68.49.221' to ALLOWED_HOSTS.
+WARNING 2024-01-17 18:25:08,096 log 34345 140166731849728 Bad Request: /status_cont/NEPU4570390/
+WARNING 2024-01-17 20:14:07,228 log 38250 139858547417088 Not Found: /
+ERROR 2024-01-17 21:11:08,911 exception 38251 139858547417088 Invalid HTTP_HOST header: '/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-01-17 21:11:08,959 log 38251 139858547417088 Bad Request: /
+WARNING 2024-01-17 21:14:43,890 log 38250 139858547417088 Not Found: /actuator/health
+WARNING 2024-01-17 21:31:10,066 log 38249 139858547417088 Not Found: /hudson
+WARNING 2024-01-17 21:49:13,997 log 38249 139858547417088 Not Found: /goform/set_LimitClient_cfg
+WARNING 2024-01-17 22:37:31,904 log 38251 139858547417088 Not Found: /
+WARNING 2024-01-17 22:48:37,085 log 38251 139858547417088 Not Found: /
+ERROR 2024-01-17 23:02:06,323 exception 38250 139858547417088 Invalid HTTP_HOST header: '/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/itmadmin/terminal_bot_serv/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2024-01-17 23:02:06,362 log 38250 139858547417088 Bad Request: /
+WARNING 2024-01-17 23:21:05,008 log 38251 139858547417088 Not Found: /invoker/readonly
+WARNING 2024-01-17 23:21:05,835 log 38251 139858547417088 Not Found: /
+WARNING 2024-01-17 23:21:06,768 log 38250 139858547417088 Not Found: /script
+WARNING 2024-01-17 23:21:07,590 log 38250 139858547417088 Not Found: /login
+WARNING 2024-01-17 23:21:11,137 log 38251 139858547417088 Not Found: /jenkins/login
+WARNING 2024-01-17 23:21:11,966 log 38249 139858547417088 Not Found: /manager/html
+WARNING 2024-01-17 23:27:22,873 log 38250 139858547417088 Not Found: /
+WARNING 2024-01-17 23:39:38,847 log 38250 139858547417088 Not Found: /
+WARNING 2024-01-18 00:06:25,459 log 38250 139858547417088 Not Found: /
+WARNING 2024-01-18 00:45:33,097 log 38251 139858547417088 Not Found: /
